@@ -1,7 +1,7 @@
 board = []
 def turn_count(board)
   # count the number of occupied spaces on the board
-  turn.length do
+  board. each do |length|
     end
 end
 
