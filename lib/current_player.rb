@@ -2,10 +2,9 @@ board = []
 def turn_count(board)
   # count the number of occupied spaces on the board
   count = 0
-    board.each do |turn|
-      if turn == "X" || turn == "O"
-        count += 1
-      end
+  board.each do |turn|
+    if turn == "X" || turn == "O"
+      count += 1
     end
   end
 end
