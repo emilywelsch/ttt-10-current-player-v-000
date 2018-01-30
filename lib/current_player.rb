@@ -1,7 +1,8 @@
-board = []
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 def turn_count(board)
   # count the number of occupied spaces on the board
-  user_markers = ["X","O","X","O","X","O","X","O","X"]
+  board.length do
+    end
 end
 
 def current_player(board)
